@@ -1,0 +1,90 @@
+/* 
+Alankar Pokhrel
+1/28/2019
+Info2220
+Jon Holmes
+Assignment 1- Part III
+Purpose:This is a CSS page which which serves as an external cascading style sheet(css) file for csstest.css file in which this file is tested.
+ */
+@import "style-importing.css";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+p{
+    padding: 2ex;
+}
+span {
+    font-weight: bold;
+}
+table span {
+    text-decoration: underline;
+}
+a {
+    color: #ff8800;
+}
+h1 {
+    size: 2em;
+    color: #ff8800;
+}
+h2 {
+    size:1.8em;
+    color: #888888;
+}
+h3{
+    size:1.6em;
+}
+th {
+    background-color: #ff8800;
+    color:#ffffff;
+}
+tr {
+    size:.9em;
+    background-color: #eeeeee;
+}
+.other {
+    background-color: #dddddd;
+}
+.success, .warning, .error{
+    border:solid;
+    border-width: 1px;
+    border-color: #aaaaaa;
+    font-weight: bold;
+    padding: .3em;
+    margin:.3em;
+}
+div{
+    border:solid;
+    border-width:1px;
+    border-color:#AAAAAA;
+    font-weight:bold;
+    padding:0.3em;
+    margin:0.3em;
+}
+.sucess {
+    color: #008800;
+    background-color: #F0FFF0;
+    border: solid;
+    border-color: #008800;
+}
+.warning {
+    color: #888800;
+    border: solid;
+    background-color: #FFFFF0;
+    border-color: #888800;
+}
+.error{
+    color: #880000;
+    border: solid;
+    background-color: #FFF0F0;
+    border-color: #880000;
+}
+
+span{
+    color: #00ff00;
+}
+.login {
+    background-image: url(../image/images.jpg);
+    background-size: 700px 70px;
+}

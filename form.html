@@ -1,0 +1,58 @@
+<!-- 
+Alankar Pokhrel
+1/21/2019
+Info2220
+Jon Holmes
+Assignment 1- Part III
+Purpose:This is a form page that goes to the Post and get reader page created by Prof. Holmes. 
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML Form
+        </title>
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <form action="http://teaching.jdholmes.net/postvget/index.php"
+            method="POST">
+            <input type="hidden" id="bengalId" name="BengalId" value="901971">
+            <span>First Name:</span> <input type="text" id="txtFirstName" name="FirstName"/>
+            <span>Last Name:</span> <input type="text" id="txtLastName" name="LastName"/>
+            <span>Secret Key:</span> <input type="password" id="txtSecretKey" name="SecretKey"/>      
+            <span>Favorite Color: </span>
+                <select id="ddColors" name="favoriteColor">
+                <option value="None">None</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+                <option value="Orange">Orange</option>
+            </select>
+                <fieldset>
+                    <legend>Day of the Week</legend>
+                    <input type="radio" id="rbSun" name="DayOfTheWeek" value="Sunday">Sunday
+                    <input type="radio" id="rbMon" name="DayOfTheWeek" value="Monday">Monday
+                    <input type="radio" id="rbtue" name="DayOfTheWeek" value="Tuesday">Tuesday
+                    <input type="radio" id="rbWed" name="DayOfTheWeek" value="Wednesday">Wednesday
+                    <input type="radio" id="rbThu" name="DayOfTheWeek" value="Thursday">Thursday
+                    <input type="radio" id="rbFri" name="DayOfTheWeek" value="Friday" checked="checked">Friday
+                    <input type="radio" id="rbSat" name="DayOfTheWeek" value="Saturday">Saturday
+                </fieldset>  
+            
+                <fieldset>
+                    <legend>Times</legend>
+                    <input type="checkbox" id="ckElevenAM" name="timeOfDay11" value="11:00 am">11:00 AM
+                    <input type="checkbox" id="ckTwelveAM" name="timeOfDay12" value="12:00 am">12:00 AM
+                    <input type="checkbox" id="ckOnePM" name="timeOfDay1" value="1:00 pm">1:00 PM
+                    <input type="checkbox" id="ckTwoPM" name="timeOfDay2" value="2:00 pm">2:00 PM
+                    <input type="checkbox" id="ckThreePM" name="timeOfDay3" value="3:00 pm">3:00 PM
+                </fieldset>
+            
+               <span>Description: </span><textarea id="txtaDescription" name="Description">
+                </textarea>
+                <input type="submit" value="Send to Server"/>
+            
+      </form>   
+    </body>
+</html>

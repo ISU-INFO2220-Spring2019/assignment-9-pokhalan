@@ -1,0 +1,7 @@
+.best:nth-child(2n+1) {
+    background-color: chocolate;
+    text-align-last: center;
+    text-combine-upright: digits;
+    background-position-x:top;
+  
+}

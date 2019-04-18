@@ -1,0 +1,30 @@
+/* 
+Alankar Pokhrel
+1/28/2019
+Info2220
+Jon Holmes
+Assignment 1- Part III
+Purpose:This is a CSS page which imports external css.
+ */
+a:hover {
+    color:#888888;
+}
+td:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: cell;
+}
+.success::before, .warning::before, .error::before {
+    content: "Message: ";
+}
+span.special {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+span.special:before{
+    content: open-quote;
+}
+span.special:after{
+    content:close-quote;
+}

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Storage Application</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <link href="styles/style.css" rel="stylesheet">
+    <script src="scripts/storage.js"></script>
+</head>
+<body>
+    <div class="login">
+        <form class="first">
+            <label for="userName"><b>USERNAME:</b></label>
+            <input type="text" id="username" required="Required" />
+            <br />
+            <label for="passWord"><b> PASSWORD:</b></label>
+            <input type="password" id="password" required="Required" />
+            <label>
+                <input id="remember" type="checkbox" checked="checked" name="remember"> REMEMBER ME
+            </label>
+            <br/>
+            <button id="btnForget">Forget Me</button>
+            <button id="btnLogin">Login</button>
+        </form>
+    </div>
+    <form class="second">
+        <label for="Name"><b>Name: </b></label>
+        <input type="text" name="name" id="Name" /><br />
+        <label for="Phone"><b>Phone: </b></label>
+        <input type="text" name="phone" id="Phone" /><br />
+        <label for="Age"><b>Age: </b></label>
+        <input type="text" name="age" id="Age" />
+        <fieldset>
+            <legend>Group</legend>
+            <input type="radio" name="group" value="1" />1 <br />
+            <input type="radio" name="group" value="2" />2<br />
+            <input type="radio" name="group" value="3" />3
+        </fieldset>
+
+        <button id="btnSub">Add a Person</button>
+        <button id="btnClear">Clear a storage"</button>
+    </form>
+    <a href="storage.html">Storage List</a><br />
+    <ul id="unorder">
+        <li></li>
+    </ul>
+    <a href="index.html">Back To Assignment List</a>
+
+</body>
+</html>
+
